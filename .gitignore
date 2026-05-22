@@ -1,0 +1,16 @@
+# Generated at runtime - don't commit
+NoobAI.ico
+NoobAI-icon-preview.png
+*.log
+*.bak
+*.tmp
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor junk
+.vscode/
+.idea/
+*.swp

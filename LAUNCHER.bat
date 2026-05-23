@@ -8,4 +8,4 @@ REM  Version : 1.0.0
 REM  Repo    : https://github.com/LIN4CRE/NoobAiSetup
 REM ============================================================
 title NoobAI Launcher
-powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "%~dp0NoobAI-Launcher.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0NoobAI-Launcher.ps1"

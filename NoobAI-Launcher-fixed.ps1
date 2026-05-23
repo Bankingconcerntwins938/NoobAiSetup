@@ -96,30 +96,30 @@ $script:RunningProcess = $null
     </Grid.RowDefinitions>
 
     <StackPanel Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,12">
-      <TextBlock Text="🤖 NoobAI Launcher" Style="{StaticResource H1}"/>
+      <TextBlock Text="?? NoobAI Launcher" Style="{StaticResource H1}"/>
       <TextBlock Foreground="#A6ADC8" Text="Pick a button on the left. Watch the log on the right. That's it."/>
     </StackPanel>
 
     <ScrollViewer Grid.Row="1" Grid.Column="0" VerticalScrollBarVisibility="Auto" Margin="0,0,12,0">
       <StackPanel>
         <TextBlock Text="STEP 1 - INSTALL" Style="{StaticResource H2}"/>
-        <Button x:Name="btnInstall" Style="{StaticResource BigBtn}" Content="📦  Install everything (base)"/>
-        <Button x:Name="btnMove"    Style="{StaticResource BigBtn}" Content="🚚  Move AI models to another drive"/>
-        <Button x:Name="btnCrew"    Style="{StaticResource BigBtn}" Content="👷  Add the AI Crew (specialists)"/>
-        <Button x:Name="btnPowers"  Style="{StaticResource BigBtn}" Content="⚡  Add MCP Superpowers (free)"/>
+        <Button x:Name="btnInstall" Style="{StaticResource BigBtn}" Content="??  Install everything (base)"/>
+        <Button x:Name="btnMove"    Style="{StaticResource BigBtn}" Content="??  Move AI models to another drive"/>
+        <Button x:Name="btnCrew"    Style="{StaticResource BigBtn}" Content="??  Add the AI Crew (specialists)"/>
+        <Button x:Name="btnPowers"  Style="{StaticResource BigBtn}" Content="?  Add MCP Superpowers (free)"/>
 
         <TextBlock Text="DAILY USE" Style="{StaticResource H2}"/>
-        <Button x:Name="btnLaunchCrew" Style="{StaticResource BigBtn}" Content="🚀  Launch the AI Crew"/>
-        <Button x:Name="btnQuickChat"  Style="{StaticResource BigBtn}" Content="💬  Quick chat (terminal)"/>
+        <Button x:Name="btnLaunchCrew" Style="{StaticResource BigBtn}" Content="??  Launch the AI Crew"/>
+        <Button x:Name="btnQuickChat"  Style="{StaticResource BigBtn}" Content="??  Quick chat (terminal)"/>
 
         <TextBlock Text="MAINTENANCE" Style="{StaticResource H2}"/>
-        <Button x:Name="btnHealth"       Style="{StaticResource BigBtn}" Content="🩺  Health Check"/>
-        <Button x:Name="btnUpdateModels" Style="{StaticResource BigBtn}" Content="🔄  Update AI models"/>
-        <Button x:Name="btnOpenFolder"   Style="{StaticResource BigBtn}" Content="📁  Open Crew workspace folder"/>
-        <Button x:Name="btnMakeIcon"     Style="{StaticResource BigBtn}" Content="🎨  Regenerate desktop icon"/>
+        <Button x:Name="btnHealth"       Style="{StaticResource BigBtn}" Content="??  Health Check"/>
+        <Button x:Name="btnUpdateModels" Style="{StaticResource BigBtn}" Content="??  Update AI models"/>
+        <Button x:Name="btnOpenFolder"   Style="{StaticResource BigBtn}" Content="??  Open Crew workspace folder"/>
+        <Button x:Name="btnMakeIcon"     Style="{StaticResource BigBtn}" Content="??  Regenerate desktop icon"/>
 
         <TextBlock Text="DANGER ZONE" Style="{StaticResource H2}" Foreground="#F38BA8"/>
-        <Button x:Name="btnUninstall" Style="{StaticResource BigBtn}" Content="🗑️  Uninstall everything"/>
+        <Button x:Name="btnUninstall" Style="{StaticResource BigBtn}" Content="???  Uninstall everything"/>
       </StackPanel>
     </ScrollViewer>
 
@@ -138,19 +138,19 @@ $script:RunningProcess = $null
               <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0">
-              <TextBlock x:Name="stOllama"   Foreground="#A6ADC8" Text="• Ollama:   checking..."/>
-              <TextBlock x:Name="stVSCode"   Foreground="#A6ADC8" Text="• VS Code:  checking..."/>
-              <TextBlock x:Name="stCline"    Foreground="#A6ADC8" Text="• Cline:    checking..."/>
-              <TextBlock x:Name="stRoo"      Foreground="#A6ADC8" Text="• Roo Code: checking..."/>
+              <TextBlock x:Name="stOllama"   Foreground="#A6ADC8" Text="? Ollama:   checking..."/>
+              <TextBlock x:Name="stVSCode"   Foreground="#A6ADC8" Text="? VS Code:  checking..."/>
+              <TextBlock x:Name="stCline"    Foreground="#A6ADC8" Text="? Cline:    checking..."/>
+              <TextBlock x:Name="stRoo"      Foreground="#A6ADC8" Text="? Roo Code: checking..."/>
             </StackPanel>
             <StackPanel Grid.Column="1">
-              <TextBlock x:Name="stModels"     Foreground="#A6ADC8" Text="• Models:   checking..."/>
-              <TextBlock x:Name="stModelsPath" Foreground="#A6ADC8" Text="• Location: checking..."/>
-              <TextBlock x:Name="stGpu"        Foreground="#A6ADC8" Text="• GPU:      checking..."/>
-              <TextBlock x:Name="stOrphans"    Foreground="#A6ADC8" Text="• Orphans:  checking..."/>
+              <TextBlock x:Name="stModels"     Foreground="#A6ADC8" Text="? Models:   checking..."/>
+              <TextBlock x:Name="stModelsPath" Foreground="#A6ADC8" Text="? Location: checking..."/>
+              <TextBlock x:Name="stGpu"        Foreground="#A6ADC8" Text="? GPU:      checking..."/>
+              <TextBlock x:Name="stOrphans"    Foreground="#A6ADC8" Text="? Orphans:  checking..."/>
             </StackPanel>
           </Grid>
-          <Button x:Name="btnRefresh" Style="{StaticResource BigBtn}" Content="🔄  Refresh status"
+          <Button x:Name="btnRefresh" Style="{StaticResource BigBtn}" Content="??  Refresh status"
                   HorizontalAlignment="Left" Margin="0,8,0,0" Padding="10,4"/>
         </StackPanel>
       </Border>
@@ -183,7 +183,7 @@ $script:RunningProcess = $null
       <ProgressBar x:Name="pb" Grid.Column="0" Height="6" Background="#313244" Foreground="#89B4FA"
                    BorderThickness="0" IsIndeterminate="False"/>
       <TextBlock Grid.Column="1" Foreground="#6C7086" Margin="12,0,0,0"
-                 Text="NoobAI Launcher v1.0 · github.com/LIN4CRE/NoobAiSetup"/>
+                 Text="NoobAI Launcher v1.0 ? github.com/LIN4CRE/NoobAiSetup"/>
     </Grid>
   </Grid>
 </Window>
@@ -248,16 +248,16 @@ function Update-Status {
     $ollamaInstalled = Test-Path $ollamaExe
     $ollamaRunning   = [bool](Get-Process ollama -ErrorAction SilentlyContinue)
     if ($ollamaInstalled) {
-        $txt = if ($ollamaRunning) { "• Ollama:   running ✓" } else { "• Ollama:   installed (stopped)" }
+        $txt = if ($ollamaRunning) { "? Ollama:   running ?" } else { "? Ollama:   installed (stopped)" }
         Set-StatusLine $ctrl.stOllama $txt $ollamaRunning
     } else {
-        Set-StatusLine $ctrl.stOllama "• Ollama:   NOT installed" $false
+        Set-StatusLine $ctrl.stOllama "? Ollama:   NOT installed" $false
     }
 
     # VS Code
     $vscode = (Test-Path "$env:LOCALAPPDATA\Programs\Microsoft VS Code\Code.exe") -or `
               (Test-Path "$env:ProgramFiles\Microsoft VS Code\Code.exe")
-    Set-StatusLine $ctrl.stVSCode ("• VS Code:  " + $(if ($vscode) {"installed ✓"} else {"NOT installed"})) $vscode
+    Set-StatusLine $ctrl.stVSCode ("? VS Code:  " + $(if ($vscode) {"installed ?"} else {"NOT installed"})) $vscode
 
     # Extensions
     $codeCmd = $null
@@ -269,30 +269,30 @@ function Update-Status {
         $exts = & $codeCmd --list-extensions 2>$null
         $haveCline = $exts -contains 'saoudrizwan.claude-dev'
         $haveRoo   = $exts -contains 'rooveterinaryinc.roo-cline'
-        Set-StatusLine $ctrl.stCline ("• Cline:    " + $(if ($haveCline) {"installed ✓"} else {"not installed"})) $haveCline
-        Set-StatusLine $ctrl.stRoo   ("• Roo Code: " + $(if ($haveRoo)   {"installed ✓"} else {"not installed"})) $haveRoo
+        Set-StatusLine $ctrl.stCline ("? Cline:    " + $(if ($haveCline) {"installed ?"} else {"not installed"})) $haveCline
+        Set-StatusLine $ctrl.stRoo   ("? Roo Code: " + $(if ($haveRoo)   {"installed ?"} else {"not installed"})) $haveRoo
     } else {
-        Set-StatusLine $ctrl.stCline "• Cline:    (need VS Code)" $null
-        Set-StatusLine $ctrl.stRoo   "• Roo Code: (need VS Code)" $null
+        Set-StatusLine $ctrl.stCline "? Cline:    (need VS Code)" $null
+        Set-StatusLine $ctrl.stRoo   "? Roo Code: (need VS Code)" $null
     }
 
     # Models path
     $mMachine = [Environment]::GetEnvironmentVariable('OLLAMA_MODELS','Machine')
     $mUser    = [Environment]::GetEnvironmentVariable('OLLAMA_MODELS','User')
     $effective = if ($mMachine) { $mMachine } elseif ($mUser) { $mUser } else { Join-Path $env:USERPROFILE ".ollama\models" }
-    Set-StatusLine $ctrl.stModelsPath ("• Location: $effective") $true
+    Set-StatusLine $ctrl.stModelsPath ("? Location: $effective") $true
 
     # Models count
     if ($ollamaInstalled -and $ollamaRunning) {
         try {
             $r = Invoke-RestMethod -Uri "http://localhost:11434/api/tags" -TimeoutSec 3
             $count = @($r.models).Count
-            Set-StatusLine $ctrl.stModels ("• Models:   $count installed") ($count -gt 0)
+            Set-StatusLine $ctrl.stModels ("? Models:   $count installed") ($count -gt 0)
         } catch {
-            Set-StatusLine $ctrl.stModels "• Models:   API not responding" $false
+            Set-StatusLine $ctrl.stModels "? Models:   API not responding" $false
         }
     } else {
-        Set-StatusLine $ctrl.stModels "• Models:   (start Ollama to see)" $null
+        Set-StatusLine $ctrl.stModels "? Models:   (start Ollama to see)" $null
     }
 
     # GPU
@@ -300,12 +300,12 @@ function Update-Status {
         $gpu = Get-CimInstance Win32_VideoController -ErrorAction SilentlyContinue |
                Where-Object { $_.Name -match 'NVIDIA|AMD|Intel Arc' } | Select-Object -First 1
         if ($gpu) {
-            Set-StatusLine $ctrl.stGpu ("• GPU:      " + $gpu.Name) $true
+            Set-StatusLine $ctrl.stGpu ("? GPU:      " + $gpu.Name) $true
         } else {
-            Set-StatusLine $ctrl.stGpu "• GPU:      no discrete GPU" $null
+            Set-StatusLine $ctrl.stGpu "? GPU:      no discrete GPU" $null
         }
     } catch {
-        Set-StatusLine $ctrl.stGpu "• GPU:      detection failed" $null
+        Set-StatusLine $ctrl.stGpu "? GPU:      detection failed" $null
     }
 
     # Orphan model folders (fast scan)
@@ -321,9 +321,9 @@ function Update-Status {
     }
     $orphans = @($found | Where-Object { $_ -ine $effective })
     if ($orphans.Count -eq 0) {
-        Set-StatusLine $ctrl.stOrphans "• Orphans:  none ✓" $true
+        Set-StatusLine $ctrl.stOrphans "? Orphans:  none ?" $true
     } else {
-        Set-StatusLine $ctrl.stOrphans ("• Orphans:  $($orphans.Count) found - run 'Move models'") $false
+        Set-StatusLine $ctrl.stOrphans ("? Orphans:  $($orphans.Count) found - run 'Move models'") $false
     }
 
     Write-Log "Status refresh complete."

